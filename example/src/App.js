@@ -1,10 +1,9 @@
 import React from 'react'
-
-import { ExampleComponent } from 'react-passwords-checklist'
-import 'react-passwords-checklist/dist/index.css'
+import PasswordChecklist from 'react-passwords-checklist'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const password = '123abcABC'
+  return <PasswordChecklist password={password} minLength={3} />
 }
 
 export default App
