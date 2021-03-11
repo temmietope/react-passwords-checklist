@@ -12,6 +12,7 @@ const PasswordChecklist = ({
   checkIconColor,
   failIconColor,
   fontSize,
+  className
 }) => {
   const minimum = minLength ? minLength : 8
 
@@ -41,7 +42,7 @@ const PasswordChecklist = ({
   const check = <span className='mark'>&#10003;</span>
   const fail = <span className='mark'>&#x2715;</span>
   return (
-    <PasswordChecklistWrapper>
+    <PasswordChecklistWrapper className={className}>
       {checklist.map((key) => {
         const valid = passwordChecker(password, 7)[key]
         return (
@@ -76,6 +77,7 @@ PasswordChecklist.propTypes = {
   checkIconColor: PropTypes.string,
   failIconColor: PropTypes.string,
   fontSize: PropTypes.string,
+  className: PropTypes.string
 }
 
 export default PasswordChecklist
