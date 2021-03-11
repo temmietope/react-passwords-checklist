@@ -33,7 +33,7 @@ const App = () => {
 | **failIcon**            | Icon to indicate that the test failed                        | String | '&#x2715;'                                                          | Desired icon                                                                                      |
 | **checkIconColor**         | Color of checkIcon                                     | String | 'green'                                                              | Desired color in _rgba_, _hex_, etc.                                                              |
 | **failIcon** | Color of failIcon                                     | String | 'red'                                                        | Desired color in _rgba_, _hex_, etc.                                                            |
-| **fontSize**          | Font size of checklist                                 | String | '1rem'                                                           | Desired font-size in _px_, _rem_, etc. Note that at screen size of below 768px, this is neglected |
+| **fontSize**          | Font size of checklist                                 | String | '1rem'                                                           | Desired font-size in _px_, _rem_, etc |
 
 ### Example Usage with various props
 
