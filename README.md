@@ -1,6 +1,6 @@
 # react-passwords-checklist
 
-> Made with create-react-library
+> A React package that shows a checklist of rules a user's password should fulfil. Very customizable!
 
 [![NPM](https://img.shields.io/npm/v/react-passwords-checklist.svg)](https://www.npmjs.com/package/react-passwords-checklist) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -28,7 +28,7 @@ const App = () => {
 | ----------------------- | ------------------------------------------------------------ | ------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | **password**            | Password for testing                                         | String | -                                                                   | -                                                                                                 |
 | **minLength**           | Minimum password length                                      | Number | 8                                                                   | -                                                                                                 |
-| **conditions**          | Array of custom conditions you want to check for on password | Array  | {['length', 'number','specialChar', 'uppercase', 'lowercase']}      | {['length', 'number','specialChar', 'uppercase', 'lowercase']}                                    |
+| **conditions**          | Array of custom conditions you want to check for on password | Array  | ['length', 'number','specialChar', 'uppercase', 'lowercase']      | ['length', 'number','specialChar', 'uppercase', 'lowercase']                                    |
 | **checkIcon**           | Icon to indicate that the test passed                        | String | '&#10003;'                                                          | Desired icon                                                                                      |
 | **failIcon**            | Icon to indicate that the test failed                        | String | '&#x2715;'                                                          | Desired icon                                                                                      |
 | **checkIconColor**         | Color of checkIcon                                     | String | 'green'                                                              | Desired color in _rgba_, _hex_, etc.                                                              |
