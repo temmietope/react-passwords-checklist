@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { PasswordChecklist } from '.'
 
-describe('ExampleComponent', () => {
+describe('PasswordChecklist', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(PasswordChecklist).toBeTruthy()
   })
 })
